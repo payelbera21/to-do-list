@@ -6,16 +6,8 @@
       <lightning-layout vertical-align="center" horizontal-align="spread">
          <lightning-layout-item padding = "around-small">
             <ul class="slds-has-dividers_around-space">
-               <li class="slds-item" >
-                     Task test
-                  <lightning-button-icon 
-                  icon-name="utility:delete"    
-                  alternative-text="Delete" 
-                  
-                  class="slds-m-left_xx-small" title="Delete">
-               </lightning-button-icon>
-               </li>
-               <template for:each = {todoTask} for:item = "todoitem">
+               
+               <template for:each = {toDoTask} for:item = "todoitem">
 
                   
                <li class="slds-item" key = {todoitem.id}>
